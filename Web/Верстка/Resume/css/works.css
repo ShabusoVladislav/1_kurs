@@ -1,0 +1,188 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	padding: 2% 0;
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	width: 95%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas:
+		"header"
+		"nav"
+		"css"
+		"works1"
+		"adobe"
+		"works2"
+		"others"
+		"works3"
+		"copy";
+	grid-template-rows: 115px 35px 50px 3fr 50px 3fr 50px 1fr 30px;
+	grid-template-columns: 1fr;
+	grid-row-gap: 15px;
+}
+
+#header {
+	grid-area: header;
+}
+
+.logo {
+	width: 80px;
+	height: 115px; 
+	float: left;
+}
+
+.vuz {
+	font-size: 170%;
+	margin: 40px 0 0 90px;
+}
+
+#nav {
+	background: #004a41;
+	height: 35px;
+	grid-area: nav;
+}
+
+#nav li {
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+#nav a {
+	text-decoration: none;
+	padding: 3px 15px 2px 15px;
+	color: #fff;
+	font-size: 135%;
+	transition: color 0.3s ease-in-out;
+}
+
+#nav a:hover {
+	color: #cc6;
+}
+
+.h {
+	font-size: 250%;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.dash {
+	border-top: dashed #000 4px;
+	margin-top: 3px;
+	height: 0px;
+}
+
+.css{
+	grid-area: css;
+}
+
+.works1{
+	grid-area: works1;
+	display: grid;
+	justify-content: center;
+	margin-top: 50px;
+	grid-template-rows: 300px 300px 300px;
+	grid-template-columns: 450px 450px;
+	grid-row-gap: 50px;
+	grid-column-gap: 40px;
+}
+
+.adobe{
+	grid-area: adobe;
+}
+
+.works2{
+	grid-area: works2;
+	display: grid;
+	justify-content: center;
+	margin-top: 50px;
+	grid-template-rows: 300px 300px 300px;
+	grid-template-columns: 450px 450px;
+	grid-row-gap: 50px;
+	grid-column-gap: 40px;
+}
+
+.others{
+	grid-area: others;
+}
+
+.works3{
+	grid-area: works3;
+	display: grid;
+	justify-content: center;
+	margin-top: 50px;
+	grid-template-rows: 300px;
+	grid-template-columns: 450px 450px;
+	grid-row-gap: 50px;
+	grid-column-gap: 40px;
+}
+
+.object1 {
+	width: 450px;
+	height: 300px;
+}
+
+figcaption {
+	margin-top: -69px;
+}
+
+figcaption strong {
+	opacity: 0;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.object {
+	padding: 0 20px;
+}
+
+.object img {
+	width: 450px;
+	height: 300px;
+	box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+
+.object a {
+	text-decoration: none;
+}
+
+.object:hover figcaption {
+	height:65px;
+	background: #004a41;
+	opacity: 0.99;
+    transition: all 0.3s ease-in-out;
+}
+
+.object:hover figcaption strong {
+	padding:20px;
+	font-size: 110%;
+	color: #fff;
+	opacity: 1;
+}
+
+.object2 {
+	width: 450px;
+	height: 300px;
+}
+
+#copy {
+	grid-area: copy;
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 1%;
+}

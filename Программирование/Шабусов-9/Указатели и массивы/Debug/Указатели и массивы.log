@@ -1,0 +1,34 @@
+﻿Построение начато 05.05.2021 19:12:41.
+     1>Проект "D:\Vlad\Программирование\Шабусов-9\Указатели и массивы\Указатели и массивы.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\myfunctions.cpp "Шабусов.cpp"
+         Шабусов.cpp
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(92): warning C4305: инициализация: усечение из "double" к "float"
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(134): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(33): warning C4101: s: неиспользованная локальная переменная
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(93): warning C4101: pc2: неиспользованная локальная переменная
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(95): warning C4101: pd2: неиспользованная локальная переменная
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(94): warning C4101: pn2: неиспользованная локальная переменная
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(96): warning C4101: ps2: неиспользованная локальная переменная
+     1>d:\vlad\программирование\шабусов-9\указатели и массивы\шабусов.cpp(92): warning C4101: pf2: неиспользованная локальная переменная
+         myfunctions.cpp
+     1>d:\vlad\программирование\myfunctions.cpp(36): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>d:\vlad\программирование\myfunctions.cpp(37): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>d:\vlad\программирование\myfunctions.cpp(115): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>d:\vlad\программирование\myfunctions.cpp(119): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>d:\vlad\программирование\myfunctions.cpp(125): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+     1>d:\vlad\программирование\myfunctions.cpp(129): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+     1>d:\vlad\программирование\myfunctions.cpp(314): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\vlad\программирование\myfunctions.cpp(314): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(909): см. объявление "itoa"
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Vlad\Программирование\Шабусов-9\Debug\Указатели и массивы.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Vlad\Программирование\Шабусов-9\Debug\Указатели и массивы.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Vlad\Программирование\Шабусов-9\Debug\Указатели и массивы.lib" /MACHINE:X86 Debug\myfunctions.obj
+         "Debug\Шабусов.obj"
+         Указатели и массивы.vcxproj -> D:\Vlad\Программирование\Шабусов-9\Debug\Указатели и массивы.exe
+     1>Построение проекта "D:\Vlad\Программирование\Шабусов-9\Указатели и массивы\Указатели и массивы.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.36

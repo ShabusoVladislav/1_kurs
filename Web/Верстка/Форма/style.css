@@ -1,0 +1,147 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	padding: 5% 0 5% 5%;
+	background: #fff;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#container {
+	width: 350px;
+	height: 1000px;
+	margin: 0 auto;
+	border : 1px solid #fff;
+	background-color: #cfc;
+}
+
+#form1 {
+	background-color: #693;
+	width: 325;
+	height: auto;
+	margin: 3% auto;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	border-radius: 25px;
+	text-shadow: 1px 1px 2px #999;
+
+	border : 1px solid #999;
+}
+
+#form2 {
+	width: 300px;
+	height: 80px;
+	margin: 8% auto;
+	border : 2px solid #390;
+}
+
+#form2 form {
+	padding: 10px 0 20px 20px;
+}
+
+fieldset legend{
+	margin-left: 15px;
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+#form3 {
+	width: 300px;
+	height: 200px;
+	margin: 8% auto;
+	border : 2px solid #390;
+}
+
+#form3 img {
+	padding: 15px 0 15px 50px;
+}
+
+#form3 input {
+	border : 1px solid #000;
+	padding: 1px 2px;
+}
+
+#form3 form{
+	padding-left: 20px;
+}
+
+#form4 {
+	width: 300px;
+	height: 100px;
+	margin: 8% auto;
+	border : 2px solid #390;
+}
+
+#form4 form {
+	padding: 15px 0 20px 20px;
+}
+
+#form5 {
+	width: 300px;
+	height: 100px;
+	margin: 8% auto;
+	border : 2px solid #390;
+}
+
+#form5 form {
+	padding: 15px 0 20px 20px;
+}
+
+#form5 select {
+	border : 1px solid #000;
+}
+
+#form6 {
+	width: 300px;
+	height: 60px;
+	margin: 8% auto;
+	border : 2px solid #390;
+}
+
+#form6 form {
+	padding: 15px 0 20px 20px;
+}
+
+#form6 select {
+	border : 1px solid #000;
+}
+
+#form7 {
+	width: 300px;
+	height: 60px;
+	margin: 8% auto;
+	border : 2px solid #390;
+}
+
+#form7 div {
+	padding: 15px 0 15px 20px;
+}
+
+#form8 {
+	width: 300px;
+	height: 55px;
+	margin: 8% auto;
+	border : 2px solid #390;
+}
+
+#form8 div {
+	padding: 10px 0 15px 20px;
+}
+
+#form8 input {
+	border : 1px solid #000;
+}
+
+#buttons {
+	text-align: center;
+}
+
+#buttons input {
+	padding: 1px 2px;
+	border : 1px solid #000;
+}

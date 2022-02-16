@@ -1,0 +1,39 @@
+﻿Построение начато 06.05.2021 09:27:42.
+     1>Проект "D:\Vlad\Программирование\Шабусов-10\Строки\Строки.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Шабусов.cpp"
+         Шабусов.cpp
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(9): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(39): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191): см. объявление "strncpy"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(42): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115): см. объявление "strcat"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(43): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(115): см. объявление "strcat"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110): см. объявление "strcpy"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(175): warning C4996: 'strupr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strupr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(255): см. объявление "strupr"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(176): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(253): см. объявление "strrev"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(188): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(253): см. объявление "strrev"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(194): warning C4996: 'strnset': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnset. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(252): см. объявление "strnset"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(205): warning C4996: 'strrev': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strrev. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(253): см. объявление "strrev"
+     1>d:\vlad\программирование\шабусов-10\строки\шабусов.cpp(217): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(909): см. объявление "itoa"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Vlad\Программирование\Шабусов-10\Debug\Строки.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Vlad\Программирование\Шабусов-10\Debug\Строки.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Vlad\Программирование\Шабусов-10\Debug\Строки.lib" /MACHINE:X86 Debug\myfunctions.obj
+         "Debug\Шабусов.obj"
+         Строки.vcxproj -> D:\Vlad\Программирование\Шабусов-10\Debug\Строки.exe
+     1>Построение проекта "D:\Vlad\Программирование\Шабусов-10\Строки\Строки.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.95

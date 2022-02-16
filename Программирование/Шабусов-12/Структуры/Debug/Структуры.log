@@ -1,0 +1,12 @@
+﻿Построение начато 12.09.2021 12:37:02.
+     1>Проект "D:\Vlad\1 курс\Программирование\Шабусов-12\Структуры\Структуры.vcxproj" в узле 2 (целевые объекты Build).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Vlad\1 курс\Программирование\Шабусов-12\Debug\Структуры.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Vlad\1 курс\Программирование\Шабусов-12\Debug\Структуры.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Vlad\1 курс\Программирование\Шабусов-12\Debug\Структуры.lib" /MACHINE:X86 Debug\myfunctions.obj
+         "Debug\Шабусов.obj"
+     1>Шабусов.obj : error LNK2005: "float __cdecl meanval(int *,int)" (?meanval@@YAMPAHH@Z) уже определен в myfunctions.obj
+     1>D:\Vlad\1 курс\Программирование\Шабусов-12\Debug\Структуры.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+     1>Построение проекта "D:\Vlad\1 курс\Программирование\Шабусов-12\Структуры\Структуры.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.23

@@ -1,0 +1,67 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	padding: 0 0 0;
+	background-image: url(images/back.png);
+	color: black;
+	font-family: "Franklin Gothic Medium", sans-serif;
+}
+
+#container {
+	width: 760px;
+	height: auto;
+	margin: 3% auto;
+}
+
+#container table {
+	width:500px;
+	margin: 1% auto;
+}
+
+
+
+#container table th{
+	font-size: 150%; 
+	text-align: left;
+	font-weight: bold;
+}
+
+.td {
+	padding-left: 130px;
+	font-weight: 100;
+	font-family: sans-serif;
+}
+
+.icon {
+	padding-right: 5px
+}
+
+#dop {
+	width: 760px;
+	height: auto;
+	margin: 3% auto;
+	font-family: "Franklin Gothic Medium", sans-serif;
+}
+#dop p {
+	margin: 3% auto;
+}
+
+#header {
+	height: auto;
+	width: 100px;
+	background-color: yellow;
+}
+
+#dop a {
+	text-decoration: none;
+	color: black;
+}
+
+#dop a:hover {
+	color: red;
+}

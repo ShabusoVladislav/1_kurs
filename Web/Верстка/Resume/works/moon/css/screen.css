@@ -1,0 +1,11 @@
+/* 
+Title:		Screen styles and IE/Win patches
+Author: 	dan@simplebits.com
+*/
+
+/* import stylesheets and hide from IE/Mac \*/
+@import url("reset.css");
+@import url("master.css");
+@import url("ie.css");
+@import url("style.css")
+/* end import/hide */
